@@ -23,24 +23,24 @@ public class RoomCarpetDemo {
 		RoomCarpet Wiseau   = new RoomCarpet(dim2,cc);
 		
 		if(Tommy.costsMore(Wiseau)){
-			Tommy.toString();
-			dim.toString();
+			System.out.print(Tommy.toString());
+			System.out.print(dim.toString());
 			System.out.println("costs more than");
-			Wiseau.toString();
-			dim2.toString();
+			System.out.print(Wiseau.toString());
+			System.out.print(dim2.toString());
 		}
 		else if(Wiseau.costsMore(Tommy)){
-			Wiseau.toString();
-			dim2.toString();
+			System.out.print(Wiseau.toString());
+			System.out.print(dim2.toString());
 			System.out.println("costs more than");
-			Tommy.toString();
-			dim.toString();
+			System.out.print(Tommy.toString());
+			System.out.print(dim.toString());
 		}
 		else{
-			Wiseau.toString();
-			dim2.toString();
-			Tommy.toString();
-			dim.toString();
+			System.out.print(Wiseau.toString());
+			System.out.println(dim2.toString());
+			System.out.print(Tommy.toString());
+			System.out.println(dim.toString());
 			System.out.println("costs the same");
 		}
 		
