@@ -5,8 +5,9 @@ public class RoomCarpet {
 	public RoomCarpet(RoomDimension r, double c){
 		carpetCost = c;
 		room = r;
+		totalCost = carpetCost*r.getLength()*r.getWidth();
 	}
-	// GETTERS AND SETTERS //
+
 	public RoomDimension getRoom() {
 		return room;
 	}
@@ -30,6 +31,17 @@ public class RoomCarpet {
 	public void setTotalCost(double totalCost) {
 		this.totalCost = totalCost;
 	}
-	// END OF GETTERS AND SETTERS //
+	
+	public boolean costsMore(RoomCarpet o){
+		if(o.getTotalCost()<totalCost){
+			return true;
+		}
+		return false;
+	}
+	
+	public String toString(){
+		
+		return "Carpet Cost ($/sq.ft): "+carpetCost+" Total cost: $"+totalCost;
+	}
 	
 }
