@@ -3,7 +3,7 @@ public class Coin {
 	private int value;
 	
 	// CONSTRUCTOR //
-	public Coin(int v, String n){
+	public Coin(String n, int v){
 		name  = n;
 		value = v;
 	}
@@ -26,6 +26,6 @@ public class Coin {
 	
 	
 	public String toString(){
-		return"";
+		return "You just added a "+name+" to the wallet. It is worth "+value+" cents";
 	}
 }

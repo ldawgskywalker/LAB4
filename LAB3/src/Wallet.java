@@ -6,7 +6,7 @@ public class Wallet {
 		num = 0;
 		tot = 0;
 		cap = c;
-		cn = new Coin[c];
+		cn = new Coin[c+1];
 	}
 	
 	public void addCoin(Coin c){
