@@ -24,6 +24,6 @@ public class Wallet {
 	}
 	
 	public String toString(){
-		return "";
+		return "Wallet contains: "+tot+" cents";
 	}
 }
