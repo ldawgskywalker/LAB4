@@ -1,0 +1,90 @@
+STUDENTDEMO OUTPUTS
+i.
+Input student's name: Bob
+Input student number: 3
+Input student's name: Jim
+Input student number: 72
+Name: Bob
+Student Number: 3
+AND
+Name: Jim
+Student Number: 72
+Are different people.
+
+ii.
+Input student's name: Luke
+Input student number: 1
+Input student's name: Luke
+Input student number: 1
+Name: Luke
+Student Number: 1
+AND
+Name: Luke
+Student Number: 1
+Are same person.
+
+iii.
+Input student's name: Carl
+Input student number: 456
+Input student's name: Carl
+Input student number: 678
+Name: Carl
+Student Number: 456
+AND
+Name: Carl
+Student Number: 678
+Are different people.
+
+ROOMCARPETDEMO OUTPUTS
+i.
+Enter the dimensions of the first room: 10 10
+Enter the cost per square foot of carpet: 1
+Enter the dimensions of the second room: 10 10
+Enter the cost per square foot of carpet: 1
+Carpet Cost ($/sq.ft): 1.0 Total cost: $100.0Length: 10.0, Width: 10.0
+Carpet Cost ($/sq.ft): 1.0 Total cost: $100.0Length: 10.0, Width: 10.0
+costs the same
+
+ii.
+Enter the dimensions of the first room: 5 6
+Enter the cost per square foot of carpet: 7
+Enter the dimensions of the second room: 8 9
+Enter the cost per square foot of carpet: 10
+Carpet Cost ($/sq.ft): 10.0 Total cost: $720.0Length: 8.0, Width: 9.0costs more than
+Carpet Cost ($/sq.ft): 7.0 Total cost: $210.0Length: 5.0, Width: 6.0
+
+iii.
+Enter the dimensions of the first room: 1 2
+Enter the cost per square foot of carpet: 2
+Enter the dimensions of the second room: 2 1
+Enter the cost per square foot of carpet: 2
+Carpet Cost ($/sq.ft): 2.0 Total cost: $4.0Length: 2.0, Width: 1.0
+Carpet Cost ($/sq.ft): 2.0 Total cost: $4.0Length: 1.0, Width: 2.0
+costs the same
+
+
+WALLETDEMO OUTPUTS
+i.
+What is the capacity of your wallet? 3
+Input name: Toonie
+Input value: 200
+You just added a Toonie to the wallet. It is worth 200 cents
+Input name: Loonie
+Input value: 100
+You just added a Loonie to the wallet. It is worth 100 cents
+Input name: Dime
+Input value: 10
+You just added a Dime to the wallet. It is worth 10 cents
+Wallet contains: 310 cents
+
+ii.
+What is the capacity of your wallet? 0
+Wallet contains: 0 cents
+
+iii.
+What is the capacity of your wallet? 1
+Input name: Nickle
+Input value: 5
+You just added a Nickle to the wallet. It is worth 5 cents
+Wallet contains: 5 cents
+
